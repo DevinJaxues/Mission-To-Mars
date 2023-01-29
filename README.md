@@ -1,4 +1,4 @@
-# Mission To Mars Challenge
+# Mission To Mars 
 ## Devin Monsen
 ### 09/24/2022
 ![planets](images/planets.png)
