@@ -33,3 +33,7 @@ To start the process I visited [NASA Mars News](https://mars.nasa.gov/news/?page
   After that it was time to scrape the images. Using the [Mars Space Images](https://spaceimages-mars.com) webpage I then used Splinter's .find_by_tag to make the browser automate clicking the immage buttons. Then back to parsing the webpage, finding the image by HTML tag and class, assigning them to a variable and passing them into the database.
 
 Next thing to do was pull the webpages dataframe using Pandas. The [NASA Mars Facts](https://galaxyfacts-mars.com) webpage provides a table element for us. By using Pandas .read_html with the webpage parameter, I was was abe to pull the table. Set my columns and index then turn the Pandas df into HTML code to pass into the webpage I'm creating. ![scraping](images/scraperipynb.JPG)
+
+## Step 2: Python Apps
+<img align="right" src="images/app.JPG">
+<img align="right" src="images/scraperpy.JPG">
