@@ -37,3 +37,6 @@ Next thing to do was pull the webpages dataframe using Pandas. The [NASA Mars Fa
 ## Step 2: Python Apps
 <img align="right" src="images/app.JPG">
 <img align="right" src="images/scraperpy.JPG">
+Moving forward I exported the Jupyter Notebook into a Python file and cleaned it. The notebook functions were then defined into callable functions for our app and HTML to be able to interact with. Last bit was to write up a Python app file. Here I started by connecting to the Flask server and declaring that ass my app variable. Then using PyMongo to connect to the Mongo database for local data storage. First function connects our server and database to the HTML index route. Then the second function is a route to the scraper app. Lastly inserting an if statement to ensure proper function and if true running the app!
+  
+![page](images/page.png)
